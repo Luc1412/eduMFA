@@ -1,7 +1,6 @@
 name: Ubuntu
 on:
-  release:
-    types: [released]
+  push:
 
 jobs:
   build-jammy:
